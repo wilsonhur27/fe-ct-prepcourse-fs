@@ -18,28 +18,28 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
    // Retorna el valor de "num" elevado al exponente "exponent".
    // Tu código:
-     return Math.pow(num , exponent);
+     return math.pow(num , exponent);
    
 }
 
 function redondearNumero(num) {
    // Redondea "num" al entero más próximo y retórnalo.
    // Tu código:
-   Math.round (num);
+   math.round (num);
     return redondearNumero (num);
 }
 
 function redondearHaciaArriba(num) {
    // Redondea "num" hacia arriba y retórnalo.
    // Tu código:
-   Math.ceil (num);
+   math.ceil (num);
     return redondearHaciaArriba (num);
 }
 
 function numeroRandom() {
    // Genera un número al azar entre 0 y 1 y retórnalo.
    // Tu código:
-    Math.random ();
+    math.random ();
    return numeroRandom()
 }
 
